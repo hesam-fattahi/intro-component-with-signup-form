@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Preview
 
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://hesam-fattahi.github.io/intro-component-with-signup-form/)
 
 ## My process
 
