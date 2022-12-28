@@ -54,7 +54,7 @@ body {
 }
 
 .container {
-  max-width: 35rem;
+  max-width: 40rem;
   margin: 0 auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
@@ -62,7 +62,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 4rem;
-  border: 5px solid black;
 }
 
 .header {
@@ -71,7 +70,6 @@ body {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  border: 5px solid gold;
 }
 
 h1 {
@@ -85,7 +83,6 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  border: 5px solid blue;
 }
 
 .offer {
