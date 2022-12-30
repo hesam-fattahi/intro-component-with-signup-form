@@ -6,8 +6,6 @@ const emailInput = document.querySelector("#email");
 
 const errorMessages = [...document.querySelectorAll(".error-message")];
 
-const successMessage = document.querySelector(".success-message");
-
 const btnSubmit = document.querySelector("button");
 
 let emailRegex = new RegExp("[a-z0-9]+@[a-z]+.[a-z]{2,3}");
@@ -24,10 +22,6 @@ btnSubmit.addEventListener("click", (e) => {
       inputGroups[2].classList.add("error");
     } else {
       inputGroups[i].classList.remove("error");
-      successMessage.classList.add("active");
-      setTimeout(() => {
-        successMessage.classList.remove("active");
-      }, 2000);
     }
   });
 });

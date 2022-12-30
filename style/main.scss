@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 40rem;
   margin: 0 auto;
   min-height: 100vh;
@@ -42,7 +43,6 @@ h1 {
 }
 
 .offer {
-  width: 100%;
   background-color: $color-blue;
   padding: 1.125rem 3.6rem;
   color: white;
@@ -141,27 +141,6 @@ h1 {
 
   .error-message,
   .error-icon {
-    display: block;
-  }
-}
-
-.success-message {
-  display: none;
-  position: absolute;
-  top: 3rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  background-color: $color-blue--dark;
-  color: white;
-  width: 90%;
-  max-width: 35rem;
-  text-align: center;
-
-  &.active {
     display: block;
   }
 }

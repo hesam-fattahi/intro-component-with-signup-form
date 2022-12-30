@@ -54,6 +54,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 40rem;
   margin: 0 auto;
   min-height: 100vh;
@@ -86,7 +87,6 @@ h1 {
 }
 
 .offer {
-  width: 100%;
   background-color: hsl(248deg, 32%, 49%);
   padding: 1.125rem 3.6rem;
   color: white;
@@ -186,26 +186,6 @@ h1 {
 }
 .input-group.error .error-message,
 .input-group.error .error-icon {
-  display: block;
-}
-
-.success-message {
-  display: none;
-  position: absolute;
-  top: 3rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  background-color: hsl(249deg, 10%, 26%);
-  color: white;
-  width: 90%;
-  max-width: 35rem;
-  text-align: center;
-}
-.success-message.active {
   display: block;
 }
 
