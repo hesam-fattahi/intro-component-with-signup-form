@@ -50,7 +50,8 @@ h6 {
 }
 
 body {
-  background: url(../images/bg-intro-mobile.png), hsl(0deg, 100%, 74%);
+  background-image: url(../images/bg-intro-desktop.png);
+  background-color: #0284c7;
 }
 
 .container {
@@ -75,6 +76,7 @@ body {
 
 h1 {
   font-size: 1.75rem;
+  font-size: clamp(1.75rem, 0.5rem + 4.166vw, 3rem);
   line-height: 1.25;
   margin-bottom: 0.75em;
 }
@@ -127,6 +129,7 @@ h1 {
 .form p {
   text-align: center;
   font-size: 0.625rem;
+  font-size: clamp(0.625rem, 0.5rem + 0.4166vw, 0.75rem);
   color: hsl(246deg, 25%, 77%);
   padding: 0 1rem;
 }
@@ -189,11 +192,6 @@ h1 {
   display: block;
 }
 
-@media (min-width: 30em) {
-  body {
-    background: url(../images/bg-intro-desktop.png), hsl(0deg, 100%, 74%);
-  }
-}
 @media (min-width: 60em) {
   .container {
     max-width: 73.125rem;
@@ -204,14 +202,8 @@ h1 {
   .header {
     text-align: left;
   }
-  h1 {
-    font-size: 3rem;
-  }
   .form {
     padding: 2rem;
     gap: 1.25rem;
-  }
-  .form p {
-    font-size: 0.75rem;
   }
 }/*# sourceMappingURL=main.css.map */
